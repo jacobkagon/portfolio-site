@@ -84,15 +84,15 @@ export default function Container(props) {
           <NextLink href="/">
             <a className="p-1 text-gray-900 sm:p-4 dark:text-gray-100">Home</a>
           </NextLink>
-          <NextLink>
-            <a
-              href="https://jacob-kagon.medium.com/"
-              target="_blank"
-              className="p-1 text-gray-900 sm:p-4 dark:text-gray-100"
-            >
-              Blog
-            </a>
-          </NextLink>
+
+          <a
+            href="https://jacob-kagon.medium.com/"
+            target="_blank"
+            className="p-1 text-gray-900 sm:p-4 dark:text-gray-100"
+          >
+            Blog
+          </a>
+
           <NextLink href="/about">
             <a className="p-1 text-gray-900 sm:p-4 dark:text-gray-100">About</a>
           </NextLink>
