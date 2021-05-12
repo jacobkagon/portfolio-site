@@ -2,6 +2,8 @@ import React from "react";
 import Container from "../components/Container";
 import Link from "next/link";
 
+import profile from "../public/images/profile.jpg";
+
 const about = () => {
   return (
     <Container title="About – Jacob Kagon">
@@ -14,6 +16,8 @@ const about = () => {
             Hey, I'm Jacob. I'm a junior software engineer who graduated from
             the Flatiron coding bootcamp in late January, 2021.
           </p>
+          <img src="./images/profile.jpg" />
+
           <p>
             I'm originally from Malibu, California and traded in the beach for
             the National Mall when I went to college at American University in
