@@ -11,11 +11,14 @@ export default function Home() {
           Hey, I’m Jacob
         </h1>
         <h2 className="mb-16 prose text-gray-600 dark:text-gray-400">
-          I’m a developer who loves to learn new technologies and make everyday life easier and more enjoyable. Feel free to reach out if you want to collaborate or chat about tech. &nbsp;
+          I’m a developer who loves to learn new technologies and make everyday
+          life easier and more enjoyable. Feel free to reach out if you want to
+          collaborate or chat about tech. &nbsp;
         </h2>
         <h3 className="mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
-          Featured Projects
+          My Projects
         </h3>
+        <div className="py-6 mt-4"></div>
       </div>
     </Container>
   );

@@ -85,7 +85,10 @@ export default function Container(props) {
             <a className="p-1 text-gray-900 sm:p-4 dark:text-gray-100">Home</a>
           </NextLink>
           <NextLink href="/">
-            <a className="p-1 text-gray-900 sm:p-4 dark:text-gray-100">
+            <a
+              className="p-1 text-gray-900 sm:p-4 dark:text-gray-100"
+              href="#projects"
+            >
               Projects
             </a>
           </NextLink>
