@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Container from "../components/Container";
 import Link from "next/link";
-import Projects from "../components/Projects";
+import Projects from "../containers/Projects";
 
 export default function Home() {
   return (
