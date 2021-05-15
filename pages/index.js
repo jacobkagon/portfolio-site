@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Container from "../components/Container";
 import Link from "next/link";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
         <h3 className="mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
           My Projects
         </h3>
-        <div className="py-6 mt-4"></div>
+        <div className="py-6 mt-4">
+          <Projects />
+        </div>
       </div>
     </Container>
   );

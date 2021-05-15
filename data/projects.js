@@ -20,4 +20,11 @@ export const projects = [
     thumbnail: "images/thegarden.png",
     link: "https://the-nurturing-garden.vercel.app/",
   },
+  {
+    name: "Atlas",
+    description:
+      "A travel log app where you can select countries you've visited and share your stories",
+    thumbnail: "images/atlas_photo.png",
+    link: "https://atlas-world.netlify.app/",
+  },
 ];
