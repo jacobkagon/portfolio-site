@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -8,7 +9,7 @@ const ProjectCard = ({ project }) => {
         whileHover={{ scale: 1.03, transition: { duration: 0.1 } }}
       ></li>
       <div className="w-full shadow-md">
-        <img width="1440" height="792" src={project.thumbnail} />
+        <img width="1100" src={project.thumbnail} />
       </div>
     </div>
   );
