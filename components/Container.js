@@ -27,6 +27,7 @@ export default function Container(props) {
     <div className="bg-white dark:bg-black">
       <Head>
         <title>{meta.title}</title>
+
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
 
