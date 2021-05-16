@@ -1,5 +1,6 @@
 export const projects = [
   {
+    id: "cinematic",
     name: "Cinematic",
     description:
       "A social movie website where you can see what's popular and what your friends are watching",
@@ -7,6 +8,7 @@ export const projects = [
     link: "https://cinematic-experience.herokuapp.com/",
   },
   {
+    id: "love4heroes",
     name: "Love4Heroes",
     description:
       "An app to share appreciation for frontline workers during the Coronavirus. Made during the 2021 uOtta Hackathon.",
@@ -14,6 +16,7 @@ export const projects = [
     link: "https://love4heroes.online/",
   },
   {
+    id: "garden",
     name: "The Garden",
     description:
       "A journaling app where users can write entries based on prompts",
@@ -21,6 +24,7 @@ export const projects = [
     link: "https://the-nurturing-garden.vercel.app/",
   },
   {
+    id: "atlas",
     name: "Atlas",
     description:
       "A travel log app where you can select countries you've visited and share your stories",
