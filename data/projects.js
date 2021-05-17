@@ -26,8 +26,8 @@ export const projects = [
       "A journaling app where users can write entries based on prompts",
     thumbnail: "images/Garden_App.png",
     link: "https://the-nurturing-garden.vercel.app/",
-    github: "",
-    youtube: "",
+    github: "https://github.com/jacobkagon/garden-frontend",
+    youtube: "https://www.youtube.com/watch?v=8OsY-vaGe3E",
   },
   {
     id: "atlas",
@@ -36,7 +36,6 @@ export const projects = [
       "A travel log app where you can select countries you've visited and share your stories",
     thumbnail: "images/Atlas_App.png",
     link: "https://atlas-world.netlify.app/",
-    github: "",
-    youtube: "",
+    github: "https://github.com/jacobkagon/atlas-frontend",
   },
 ];
