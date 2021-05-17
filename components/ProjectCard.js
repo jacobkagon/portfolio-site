@@ -5,7 +5,10 @@ import Link from "next/link";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div>
+    <li
+      className="max-w-md rounded-md card project-card md:w-full border-thin ring-vis-0"
+      whileHover={{ scale: 1.03, transition: { duration: 0.1 } }}
+    >
       <header className="flex justify-between">
         <h4 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-2xl dark:text-white">
           <span>{project.name}</span>
@@ -38,7 +41,7 @@ const ProjectCard = ({ project }) => {
       <div className="w-full shadow-md">
         <img width="1100" src={project.thumbnail} />
       </div>
-    </div>
+    </li>
   );
 };
 

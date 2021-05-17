@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Container from "../components/Container";
 import Link from "next/link";
 import Projects from "../containers/Projects";
+import About from "../components/about";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
         <div className="py-6 mt-4 ">
           <Projects />
         </div>
+
+        <About />
       </div>
     </Container>
   );

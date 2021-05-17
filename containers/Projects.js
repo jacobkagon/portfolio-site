@@ -12,6 +12,7 @@ const Projects = () => {
           ))}
         </ul>
       </article>
+      <div id="about"></div>
     </main>
   );
 };
