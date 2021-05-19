@@ -36,7 +36,7 @@ const ProjectCard = ({ project }) => {
           ) : null}
         </div>
       </header>
-      <p className="component">{project.description}</p>
+      <p className="p-2 component">{project.description}</p>
 
       <div className="w-full shadow-md">
         <img width="1100" src={project.thumbnail} />
