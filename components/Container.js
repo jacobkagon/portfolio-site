@@ -16,9 +16,8 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Jacob Kagon – Developer, writer, creator.",
+    title: "Jacob Kagon – Portfolio",
     description: `Front-end developer and JavaScript enthusiast.`,
-    // image: 'https://leerob.io/static/images/banner.png',
     type: "website",
     ...customMeta,
   };
