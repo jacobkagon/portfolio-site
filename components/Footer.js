@@ -18,15 +18,15 @@ export default function Footer() {
 
       <div className="grid w-full max-w-2xl grid-cols-1 gap-4 pb-16 sm:grid-cols-2">
         <div className="flex flex-col items-center space-y-4">
-          <Link href="/">
+          <Link href="#home">
             <a className="text-gray-500 transition hover:text-gray-600">Home</a>
           </Link>
-          <Link href="/projects">
+          <Link href="#projects">
             <a className="text-gray-500 transition hover:text-gray-600">
               Projects
             </a>
           </Link>
-          <Link href="/about">
+          <Link href="#about">
             <a className="text-gray-500 transition hover:text-gray-600">
               About
             </a>
