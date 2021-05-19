@@ -3,9 +3,11 @@ import Image from "next/image";
 import { SiGithub, SiYoutube } from "react-icons/si";
 import Link from "next/link";
 
+import { motion } from "framer-motion";
+
 const ProjectCard = ({ project }) => {
   return (
-    <li
+    <motion.li
       className="max-w-md rounded-md card project-card md:w-full border-thin ring-vis-0"
       whileHover={{ scale: 1.03, transition: { duration: 0.1 } }}
     >
@@ -34,14 +36,12 @@ const ProjectCard = ({ project }) => {
           ) : null}
         </div>
       </header>
-      <li
-        className="max-w-md rounded-md card project-card md:w-full border-thin ring-vis-0"
-        whileHover={{ scale: 1.03, transition: { duration: 0.1 } }}
-      ></li>
+      <p className="component">{project.description}</p>
+
       <div className="w-full shadow-md">
         <img width="1100" src={project.thumbnail} />
       </div>
-    </li>
+    </motion.li>
   );
 };
 
