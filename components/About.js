@@ -37,7 +37,10 @@ const About = () => {
           </p>
           <p>
             {" "}
-            Contact me at <u>jacob.kagon@gmail.com</u> if you want to connect.
+            <a target="_blank" href="mailto: jacob.kagon@gmail.com">
+              Email me
+            </a>{" "}
+            if you want to connect.
           </p>
         </div>
       </div>
