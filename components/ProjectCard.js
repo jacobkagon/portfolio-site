@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const ProjectCard = ({ project }) => {
   return (
     <motion.li
-      className="max-w-md rounded-md card project-card md:w-full border-thin ring-vis-0"
+      className="max-w-md border-2 rounded-md md:w-full ring-vis-0"
       whileHover={{ scale: 1.03, transition: { duration: 0.1 } }}
     >
       <header className="flex justify-between">
