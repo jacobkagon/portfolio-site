@@ -37,10 +37,11 @@ const ProjectCard = ({ project }) => {
         </div>
       </header>
       <p className="p-2 component">{project.description}</p>
-
-      <div className="w-full shadow-md">
-        <img width="1100" src={project.thumbnail} />
-      </div>
+      <Link href={project.link}>
+        <div className="w-full shadow-md cursor-pointer">
+          <img width="1100" src={project.thumbnail} />
+        </div>
+      </Link>
     </motion.li>
   );
 };
