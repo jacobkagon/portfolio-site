@@ -7,7 +7,10 @@ import { motion } from "framer-motion";
 
 const ProjectCard = ({ project }) => {
   return (
-    <motion.li className="max-w-md p-6 m-1 border-2 rounded-md md:w-full">
+    <motion.li
+      className="max-w-md p-6 m-1 border-2 rounded-md md:w-full"
+      whileHover={{ scale: 1.03, transition: { duration: 0.1 } }}
+    >
       <header className="flex justify-between">
         <h4 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-2xl dark:text-white">
           <span>{project.name}</span>
