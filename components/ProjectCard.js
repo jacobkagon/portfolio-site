@@ -7,10 +7,7 @@ import { motion } from "framer-motion";
 
 const ProjectCard = ({ project }) => {
   return (
-    <motion.li
-      className="max-w-md p-2 m-1 border-2 rounded-md"
-      whileHover={{ scale: 1.03, transition: { duration: 0.1 } }}
-    >
+    <motion.li className="max-w-md p-6 m-1 border-2 rounded-md md:w-full">
       <header className="flex justify-between">
         <h4 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-2xl dark:text-white">
           <span>{project.name}</span>
@@ -36,10 +33,17 @@ const ProjectCard = ({ project }) => {
           ) : null}
         </div>
       </header>
-      <p className="p-2 component">{project.description}</p>
+
       <Link href={project.link}>
-        <div className="w-full shadow-md cursor-pointer">
-          <img width="1100" src={project.thumbnail} />
+        <div className="cursor-pointer">
+          <p className="p-2 component">{project.description}</p>
+          <div className="w-full shadow-md">
+            <img width="1100" src={project.thumbnail} />
+          </div>
+
+          <p className="inline-block mt-4 font-medium view hover:underline">
+            View Site
+          </p>
         </div>
       </Link>
     </motion.li>

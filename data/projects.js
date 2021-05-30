@@ -13,7 +13,7 @@ export const projects = [
     id: "love4heroes",
     name: "Love4Heroes",
     description:
-      "An app to share appreciation for frontline workers during the Coronavirus. Made during the 2021 uOtta Hackathon.",
+      "An app to share appreciation for frontline workers during the COVID-19 Pandemic",
     thumbnail: "images/love4heroesapp.png",
     link: "https://love4heroes.online/",
     github: "https://github.com/jacobkagon/love4heroes",
@@ -33,7 +33,7 @@ export const projects = [
     id: "atlas",
     name: "Atlas",
     description:
-      "A travel log app where you can select countries you've visited and share your stories",
+      "A travel log app where you can select countries you've visited",
     thumbnail: "images/Atlas_App.png",
     link: "https://atlas-world.netlify.app/",
     github: "https://github.com/jacobkagon/atlas-frontend",
