@@ -13,14 +13,14 @@ export default function Home() {
           <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
             Hey, I’m Jacob
           </h1>
-          <h2
+          <p
             id="projects"
             className="mb-16 prose text-gray-600 dark:text-gray-400"
           >
             I’m a developer who loves to learn new technologies and make
             everyday life easier and more enjoyable. Feel free to reach out if
             you want to collaborate or chat about tech. &nbsp;
-          </h2>
+          </p>
           <h3 className="mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
             My Projects
           </h3>
