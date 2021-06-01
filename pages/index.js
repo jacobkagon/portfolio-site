@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
         <h2
           id="projects"
-          className="mb-16 prose text-gray-600 dark:text-gray-400"
+          className="mb-16 prose text-gray-600 dark:text-gray-200"
         >
           I’m a developer who loves to learn new technologies and make everyday
           life easier and more enjoyable. Feel free to reach out if you want to
