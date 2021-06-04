@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
           About Me
         </h1>
-        <div className="mb-8 leading-6 prose text-gray-600 dark:text-gray-400">
+        <div className="mb-8 leading-6 prose text-gray-600 dark:text-gray-200">
           <p>
             Hey, I'm Jacob. I'm a junior software engineer who graduated from
             the Flatiron coding bootcamp in late January, 2021.
@@ -25,6 +25,7 @@ const About = () => {
             for a year.
           </p>
           <p>
+            {" "}
             I became interested in coding after I built a Wikipedia article in
             HTML. I decided I wanted to learn more about software so I enrolled
             in the Flation School. While there, I loved the sense of

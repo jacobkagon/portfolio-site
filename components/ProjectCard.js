@@ -39,7 +39,9 @@ const ProjectCard = ({ project }) => {
 
       <Link href={project.link}>
         <div className="cursor-pointer">
-          <p className="pb-3 component">{project.description}</p>
+          <p className="mb-8 leading-6 prose text-gray-600 dark:text-gray-200">
+            {project.description}
+          </p>
           <div className="w-full shadow-md">
             <img width="1100" src={project.thumbnail} />
           </div>
