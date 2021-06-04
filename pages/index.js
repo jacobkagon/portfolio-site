@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Link from "next/link";
 import Projects from "../containers/Projects";
 import About from "../components/About";
+import TechStack from "../components/TechStack";
 
 export default function Home() {
   return (
