@@ -100,17 +100,18 @@ export default function TechStack() {
       >
         {currentTechStack.map((tech, index) => (
           <motion.div
+            whileHover={{ scale: 1.03, transition: { duration: 0.1 } }}
             key={index}
             animation="scale-subtle"
             interactive={true}
             content={
               <span className="inline-block p-2 bg-white rounded-md shadow-md dark:bg-dark border-thin">
-                {techObject[tech][0]()}
+                {techObject[tech][1]()}
               </span>
             }
           >
             <motion.button className="rounded-sm md:w-12 ring-vis">
-              {techObject[tech][1]()}
+              {techObject[tech][2]()}
             </motion.button>
           </motion.div>
         ))}

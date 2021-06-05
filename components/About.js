@@ -32,9 +32,8 @@ const About = () => {
             accomplishement I got from building cool apps.
           </p>
           <p>
-            I'm now looking to join an organization where I can provide value as
-            a software engineer and continue to build amazing, life changing
-            applications.
+            I'm excited to be joining IdeaCrew as a junior Ruby on Rails
+            developer later this month!
           </p>
           <p>
             {" "}

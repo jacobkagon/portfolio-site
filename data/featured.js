@@ -10,7 +10,6 @@ export const currentTechStack = [
   "nextjs",
   "react",
   "tailwindcss",
-  "swr",
   "firebase",
-  "nodejs",
+  "ruby",
 ];
