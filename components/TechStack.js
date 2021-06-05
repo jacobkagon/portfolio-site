@@ -99,7 +99,7 @@ export default function TechStack() {
         }}
       >
         {currentTechStack.map((tech, index) => (
-          <Tippy
+          <motion.div
             key={index}
             animation="scale-subtle"
             interactive={true}
@@ -112,7 +112,7 @@ export default function TechStack() {
             <motion.button className="rounded-sm md:w-12 ring-vis">
               {techObject[tech][1]()}
             </motion.button>
-          </Tippy>
+          </motion.div>
         ))}
       </IconContext.Provider>
     </motion.div>

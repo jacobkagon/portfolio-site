@@ -21,6 +21,7 @@ export default function Home() {
           life easier and more enjoyable. Feel free to reach out if you want to
           collaborate or chat about tech. &nbsp;
         </h2>
+        <TechStack />
         <h3 className="mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
           My Projects
         </h3>
