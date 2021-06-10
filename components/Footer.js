@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ExternalLink = ({ href, children }) => (
   <a
-    className="text-gray-500 transition hover:text-gray-600"
+    className="text-gray-600 transition hover:text-gray-600 dark:text-gray-200"
     target="_blank"
     rel="noopener noreferrer"
     href={href}
@@ -19,20 +19,22 @@ export default function Footer() {
       <div className="grid w-full max-w-2xl grid-cols-1 gap-4 pb-16 sm:grid-cols-2">
         <div className="flex flex-col items-center space-y-4">
           <Link href="#home">
-            <a className="text-gray-500 transition hover:text-gray-600">Home</a>
+            <a className="text-gray-600 transition dark:text-gray-200 hover:text-gray-600">
+              Home
+            </a>
           </Link>
           <Link href="#projects">
-            <a className="text-gray-500 transition hover:text-gray-600">
+            <a className="text-gray-600 transition dark:text-gray-200 hover:text-gray-600">
               Projects
             </a>
           </Link>
           <Link href="#about">
-            <a className="text-gray-500 transition hover:text-gray-600">
+            <a className="text-gray-600 transition dark:text-gray-200 hover:text-gray-600">
               About
             </a>
           </Link>
         </div>
-        <div className="flex flex-col items-center space-y-4">
+        <div className="flex flex-col items-center space-y-4 ">
           <ExternalLink href="https://twitter.com/jacob_kagon">
             Twitter
           </ExternalLink>
